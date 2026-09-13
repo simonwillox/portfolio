@@ -117,7 +117,7 @@ h1, h2, h3, p { margin-top: 0; }h1, h2, h3 { letter-spacing: -.035em; line-heigh
 @media (max-width: 800px) { .hero h1 { max-width: none; } }
 
 /* Full-width current-role feature */
-.feature-case { width: 100vw; min-height: 430px; margin-left: calc(50% - 50vw); padding: 72px max(48px, calc((100vw - 1240px) / 2)); grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important; gap: 48px; align-items: start; background: #1f2325; color: var(--white); }
+.feature-case { width: 100%; min-height: 430px; margin-left: 0; padding: 72px max(48px, calc((100vw - 1240px) / 2)); grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important; gap: 48px; align-items: start; background: #1f2325; color: var(--white); }
 .feature-case .case-stamp { position: absolute; top: 72px; left: max(48px, calc((100vw - 1240px) / 2)); }
 .feature-case .case-content { grid-column: 1; grid-row: 1; align-self: start; padding-top: 0; padding-right: 36px; }
 .feature-case .case-content { grid-column: 1; grid-row: 1; }
