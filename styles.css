@@ -111,7 +111,7 @@ h1, h2, h3, p { margin-top: 0; }h1, h2, h3 { letter-spacing: -.035em; line-heigh
 .signal-bar > div { border-right-style: dotted; border-right-color: rgba(22,22,22,.25); }
 .signal-note { border-top-style: dotted !important; border-top-color: rgba(22,22,22,.25) !important; }
 .approach-list, .approach-item { border-color: rgba(255,255,255,.25); border-style: dotted; }
-.approach-intro { max-width: 520px; margin-top: 36px; }.approach-intro p { margin: 0; color: #aaa9a2; font-size: 15px; line-height: 1.6; }.approach-intro p + p { margin-top: 28px; }
+.approach-intro { max-width: 520px; margin-top: 36px; }.approach-intro p { margin: 0; color: #aaa9a2; font-size: 17px; line-height: 1.6; }.approach-intro p + p { margin-top: 28px; }
 .career-line, .career-era { border-color: rgba(22,22,22,.25); border-style: dotted; }
 .footer-bottom { border-top-style: dotted; border-top-color: rgba(22,22,22,.25); }
 @media (max-width: 800px) { .hero h1 { max-width: none; } }
