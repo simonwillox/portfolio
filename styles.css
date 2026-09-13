@@ -149,7 +149,7 @@ h1, h2, h3, p { margin-top: 0; }h1, h2, h3 { letter-spacing: -.035em; line-heigh
 @media (max-width: 800px) {
   .work-section { width: 100%; margin-left: 0; }
   .work-card--split { display: flex; flex-direction: column; }
-  .work-card--split .card-art { margin-bottom: 42px; }
+  .work-card--split .card-art { margin-bottom: 0; }
   .contact-actions { flex-direction: column; align-items: stretch; gap: 4px; max-width: 260px; }
   .contact-button { justify-content: flex-start; padding: 0 10px; }
 }
