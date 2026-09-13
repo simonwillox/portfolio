@@ -118,6 +118,7 @@ h1, h2, h3, p { margin-top: 0; }h1, h2, h3 { letter-spacing: -.035em; line-heigh
 
 /* Full-width current-role feature */
 .feature-case { width: 100%; min-height: 430px; margin-left: 0; padding: 72px max(48px, calc((100vw - 1240px) / 2)); display: flex; flex-direction: column; gap: 48px; align-items: stretch; background: #1f2325; color: var(--white); }
+.work-section > .section-heading { margin-bottom: 24px; }
 .feature-case .case-stamp { position: absolute; top: 72px; left: max(48px, calc((100vw - 1240px) / 2)); }
 .feature-case .case-content { order: 2; align-self: stretch; padding-top: 0; padding-right: 36px; }
 .feature-case .case-content, .work-card--split .card-copy { transform: translateY(-8px); }
