@@ -163,7 +163,11 @@ h1, h2, h3, p { margin-top: 0; }h1, h2, h3 { letter-spacing: -.035em; line-heigh
 .work-section > .section-heading,
 .work-section > .work-grid { margin-bottom: 0; }
 .work-section > .section-heading { margin-bottom: var(--work-gap); }
-.work-section > .work-grid { margin-top: 12px; }
+.work-section > .work-grid { margin-top: var(--work-gap); }
 .work-section .feature-case { gap: var(--work-gap); }
 .work-section .feature-case .case-content,
 .work-section .work-card--split .card-copy { transform: none; }
+
+@media (max-width: 800px) {
+  .work-section > .work-grid { margin-top: 12px; }
+}
