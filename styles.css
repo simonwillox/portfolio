@@ -173,6 +173,7 @@ h1, h2, h3, p { margin-top: 0; }h1, h2, h3 { letter-spacing: -.035em; line-heigh
 }
 
 @media (min-width: 801px) {
+  .hero h1 { margin-bottom: 84px; }
   .approach-intro p,
   .career-story-copy p,
   .career-story-copy .career-lead,
