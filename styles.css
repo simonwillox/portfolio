@@ -174,9 +174,9 @@ h1, h2, h3, p { margin-top: 0; }h1, h2, h3 { letter-spacing: -.035em; line-heigh
 
 @media (min-width: 801px) {
   .feature-case { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; align-items: start; }
-  .work-section .feature-case .case-content { order: initial; grid-column: 1; grid-row: 1; align-self: start; padding-right: 36px; transform: translateY(-12px); }
+  .work-section .feature-case .case-content { order: initial; grid-column: 1; grid-row: 1; align-self: start; padding-right: 36px; transform: translateY(-10px); }
   .feature-preview { order: initial; grid-column: 2; grid-row: 1; aspect-ratio: 1 / 1; }
   .work-card--split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; align-items: start; }
   .work-card--split .card-art { grid-column: 1; grid-row: 1; aspect-ratio: 1 / 1; }
-  .work-section .work-card--split .card-copy { grid-column: 2; grid-row: 1; transform: translateY(-12px); }
+  .work-section .work-card--split .card-copy { grid-column: 2; grid-row: 1; transform: translateY(-10px); }
 }
