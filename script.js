@@ -25,6 +25,23 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
 
 const caseNav = document.querySelector('.case-nav');
 
+document.querySelectorAll('.case-study-card[data-href]').forEach((card) => {
+  const openCaseStudy = () => {
+    window.location.href = card.dataset.href;
+  };
+
+  card.addEventListener('click', (event) => {
+    if (event.target.closest('a, button')) return;
+    openCaseStudy();
+  });
+
+  card.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    event.preventDefault();
+    openCaseStudy();
+  });
+});
+
 if (caseNav) {
   document.querySelectorAll('.case-section[id] h2').forEach((heading) => {
     const link = document.createElement('a');
