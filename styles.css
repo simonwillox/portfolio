@@ -3,7 +3,7 @@
   --paper: #ffffff;
   --paper-deep: #f3f3f3;
   --lime: #d7f20b;
-  --coral: #ff6848;
+  --coral: #0c7df2;
   --white: #ffffff;
   --line: rgba(22, 22, 22, .18);
   --mono: 'DM Mono', monospace;
@@ -65,7 +65,7 @@ h1, h2, h3, p { margin-top: 0; }h1, h2, h3 { letter-spacing: -.035em; line-heigh
 .hero .text-link { display: inline-flex; align-items: center; justify-content: space-between; min-height: 48px; padding: 0 16px; border: 0; color: var(--ink); }
 .hero .text-link span { margin-left: 24px; }
 .hero .text-link:hover, .hero .text-link:focus-visible { background: rgba(22,22,22,.06); }
-.hero .cds--btn--primary:hover, .hero .cds--btn--primary:focus-visible { background: #da4f37; }
+.hero .cds--btn--primary:hover, .hero .cds--btn--primary:focus-visible { background: #0964c4; }
 .hero .cds--btn--primary:hover, .hero .cds--btn--primary:focus-visible { color: #161616; }.hero .text-link:hover, .hero .text-link:focus-visible { color: var(--ink); }.site-header .header-contact:hover, .site-header .header-contact:focus-visible { color: #000000; }.contact-button:hover, .contact-button:focus-visible { color: var(--ink); }.feature-case .case-link:hover, .feature-case .case-link:focus-visible { color: var(--lime); }
 .cds--btn, .site-header .header-contact, .gallery-control.cds--btn { font-family: var(--mono) !important; }
 .cds--btn, .site-header .header-contact { font-weight: 500; text-transform: uppercase; }
@@ -138,7 +138,7 @@ h1, h2, h3, p { margin-top: 0; }h1, h2, h3 { letter-spacing: -.035em; line-heigh
 .hero h1 .headline-highlight { color: var(--coral); }
 .cds--btn { min-height: 48px; padding: 0 16px; border: 0; font: 500 12px/1 var(--sans); letter-spacing: 0; }
 .hero .cds--btn--primary { color: #161616; background: var(--coral); }
-.hero .cds--btn--primary:hover, .hero .cds--btn--primary:focus-visible { background: #da4f37; }
+.hero .cds--btn--primary:hover, .hero .cds--btn--primary:focus-visible { background: #0964c4; }
 .hero .cds--btn--primary { background: var(--coral); }
 .hero h1 { max-width: 75vw; }
 @media (max-width: 800px) { .hero h1 { max-width: none; } }
